@@ -15,7 +15,7 @@ import java.util.List;
 
 /**
  * 自定义LicenseManager，用于增加额外的服务器硬件信息校验
- * @author zifangsky
+ * @author AlanMa
  */
 public class CustomLicenseManager extends LicenseManager{
     private static Logger logger = LogManager.getLogger(CustomLicenseManager.class);

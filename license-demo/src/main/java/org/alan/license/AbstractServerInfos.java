@@ -12,6 +12,7 @@ import java.util.List;
 
 /**
  * 用于获取客户服务器的基本信息，如：IP、Mac地址、CPU序列号、主板序列号等
+ * @author AlanMa
  */
 public abstract class AbstractServerInfos {
     private static Logger logger = LogManager.getLogger(AbstractServerInfos.class);
@@ -104,7 +105,6 @@ public abstract class AbstractServerInfos {
         } catch (SocketException e) {
             e.printStackTrace();
         }
-
         return null;
     }
 

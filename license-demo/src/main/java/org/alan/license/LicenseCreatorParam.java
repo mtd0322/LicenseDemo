@@ -7,10 +7,7 @@ import java.util.Date;
 
 /**
  * License生成类需要的参数
- *
- * @author zifangsky
- * @date 2018/4/19
- * @since 1.0.0
+ * @author AlanMa
  */
 public class LicenseCreatorParam implements Serializable {
 
