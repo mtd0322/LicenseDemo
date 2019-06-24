@@ -8,6 +8,7 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource({"license-config.properties"})
 public class LicenseDemoApplication {
 
+
     public static void main(String[] args) {
         SpringApplication.run(LicenseDemoApplication.class, args);
     }
