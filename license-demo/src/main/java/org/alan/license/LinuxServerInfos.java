@@ -8,9 +8,12 @@ import java.net.InetAddress;
 import java.util.List;
 import java.util.stream.Collectors;
 
+
 /**
- * 用于获取客户Linux服务器的基本信息
- * @author AlanMa
+ * @ClassName: LinuxServerInfos
+ * @description: 用于获取客户Linux服务器的基本信息
+ * @author: AlanMa
+ * @create: 2019-06-24 15:14
  */
 public class LinuxServerInfos extends AbstractServerInfos {
 

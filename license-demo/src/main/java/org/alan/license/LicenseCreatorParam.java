@@ -5,9 +5,12 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import java.io.Serializable;
 import java.util.Date;
 
+
 /**
- * License生成类需要的参数
- * @author AlanMa
+ * @ClassName: LicenseCreatorParam
+ * @description: License生成类需要的参数
+ * @author: AlanMa
+ * @create: 2019-06-24 15:14
  */
 public class LicenseCreatorParam implements Serializable {
 

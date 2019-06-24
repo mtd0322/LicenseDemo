@@ -13,8 +13,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Author AlanMa
- * @Description 用于生成证书文件，不能放在给客户部署的代码里
+ * @ClassName: LicenseCreatorController
+ * @description: 生成license文件
+ * @author: AlanMa
+ * @create: 2019-06-24 15:14
  */
 @RestController
 @RequestMapping("/license")

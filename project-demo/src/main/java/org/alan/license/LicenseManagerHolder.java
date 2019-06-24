@@ -4,11 +4,10 @@ import de.schlichtherle.license.LicenseManager;
 import de.schlichtherle.license.LicenseParam;
 
 /**
- * de.schlichtherle.license.LicenseManager的单例
- *
- * @author zifangsky
- * @date 2018/4/19
- * @since 1.0.0
+ * @ClassName: LicenseManagerHolder
+ * @description: de.schlichtherle.license.LicenseManager的单例
+ * @author: AlanMa
+ * @create: 2019-06-24 15:14
  */
 public class LicenseManagerHolder {
 

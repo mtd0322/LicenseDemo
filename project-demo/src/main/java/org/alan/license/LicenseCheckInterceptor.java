@@ -11,8 +11,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Author AlanMa
- * @Description 拦截器，入口
+ * @ClassName: CustomLicenseManager
+ * @description: 拦截器，入口
+ * @author: AlanMa
+ * @create: 2019-06-24 15:14
  */
 public class LicenseCheckInterceptor extends HandlerInterceptorAdapter {
     private static Logger logger = LogManager.getLogger(LicenseCheckInterceptor.class);

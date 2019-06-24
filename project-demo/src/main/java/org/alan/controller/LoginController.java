@@ -1,6 +1,5 @@
 package org.alan.controller;
 
-import com.alibaba.fastjson.JSON;
 import org.alan.license.LicenseVerify;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

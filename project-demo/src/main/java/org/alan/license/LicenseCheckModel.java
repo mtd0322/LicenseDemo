@@ -4,11 +4,10 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * 自定义需要校验的License参数
- *
- * @author zifangsky
- * @date 2018/4/23
- * @since 1.0.0
+ * @ClassName: LicenseCheckModel
+ * @description: 自定义需要校验的License参数
+ * @author: AlanMa
+ * @create: 2019-06-24 15:14
  */
 public class LicenseCheckModel implements Serializable{
 

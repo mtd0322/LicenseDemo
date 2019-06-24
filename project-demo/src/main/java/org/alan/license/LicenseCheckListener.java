@@ -10,7 +10,10 @@ import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
 
 /**
- * 在项目启动时安装证书
+ * @ClassName: LicenseCheckListener
+ * @description: 在项目启动时安装证书
+ * @author: AlanMa
+ * @create: 2019-06-24 15:14
  */
 @Component
 public class LicenseCheckListener implements ApplicationListener<ContextRefreshedEvent> {

@@ -10,9 +10,12 @@ import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.List;
 
+
 /**
- * 用于获取客户服务器的基本信息，如：IP、Mac地址、CPU序列号、主板序列号等
- * @author AlanMa
+ * @ClassName: AbstractServerInfos
+ * @description: 用于获取客户服务器的基本信息，如：IP、Mac地址、CPU序列号、主板序列号等
+ * @author: AlanMa
+ * @create: 2019-06-24 15:14
  */
 public abstract class AbstractServerInfos {
     private static Logger logger = LogManager.getLogger(AbstractServerInfos.class);

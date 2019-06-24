@@ -14,8 +14,10 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * 自定义LicenseManager，用于增加额外的服务器硬件信息校验
- * @author AlanMa
+ * @ClassName: CustomLicenseManager
+ * @description: 自定义LicenseManager，用于增加额外的服务器硬件信息校验
+ * @author: AlanMa
+ * @create: 2019-06-24 15:14
  */
 public class CustomLicenseManager extends LicenseManager{
     private static Logger logger = LogManager.getLogger(CustomLicenseManager.class);
@@ -29,9 +31,6 @@ public class CustomLicenseManager extends LicenseManager{
         super(param);
     }
 
-    /**
-     * 复写create方法
-     */
     @Override
     protected synchronized byte[] create(
             LicenseContent content,
@@ -212,7 +211,6 @@ public class CustomLicenseManager extends LicenseManager{
                     }
                 }
             }
-
             return false;
         }else {
             return true;

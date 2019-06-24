@@ -4,10 +4,11 @@ import java.net.InetAddress;
 import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
-
 /**
- * 用于获取客户Windows服务器的基本信息
- * @author AlanMa
+ * @ClassName: WindowsServerInfos
+ * @description: 用于获取客户Windows服务器的基本信息
+ * @author: AlanMa
+ * @create: 2019-06-24 15:14
  */
 public class WindowsServerInfos extends AbstractServerInfos {
 

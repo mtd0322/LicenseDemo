@@ -10,10 +10,13 @@ import java.text.MessageFormat;
 import java.util.prefs.Preferences;
 
 /**
- * License生成类
- * @author AlanMa
+ * @ClassName: LicenseCreator
+ * @description: License生成类
+ * @author: AlanMa
+ * @create: 2019-06-24 15:14
  */
 public class LicenseCreator {
+
     private static Logger logger = LogManager.getLogger(LicenseCreator.class);
     private final static X500Principal DEFAULT_HOLDER_AND_ISSUER = new X500Principal("CN=localhost, OU=localhost, O=localhost, L=SH, ST=SH, C=CN");
     private LicenseCreatorParam param;
@@ -43,6 +46,7 @@ public class LicenseCreator {
      * 初始化证书生成参数
      */
     private LicenseParam initLicenseParam(){
+
         Preferences preferences = Preferences.userNodeForPackage(LicenseCreator.class);
 
         //设置对证书内容加密的秘钥

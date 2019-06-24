@@ -1,11 +1,10 @@
 package org.alan.license;
 
 /**
- * License校验类需要的参数
- *
- * @author zifangsky
- * @date 2018/4/20
- * @since 1.0.0
+ * @ClassName: LicenseVerifyParam
+ * @description: License校验类需要的参数
+ * @author: AlanMa
+ * @create: 2019-06-24 15:14
  */
 public class LicenseVerifyParam {
 

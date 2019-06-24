@@ -11,20 +11,16 @@ import java.text.SimpleDateFormat;
 import java.util.prefs.Preferences;
 
 /**
- * License校验类
- *
- * @author zifangsky
- * @date 2018/4/20
- * @since 1.0.0
+ * @ClassName: LicenseVerify
+ * @description: License校验类
+ * @author: AlanMa
+ * @create: 2019-06-24 15:14
  */
 public class LicenseVerify {
     private static Logger logger = LogManager.getLogger(LicenseVerify.class);
 
     /**
      * 安装License证书
-     * @author zifangsky
-     * @date 2018/4/20 16:26
-     * @since 1.0.0
      */
     public synchronized LicenseContent install(LicenseVerifyParam param){
         LicenseContent result = null;
@@ -46,9 +42,6 @@ public class LicenseVerify {
 
     /**
      * 校验License证书
-     * @author zifangsky
-     * @date 2018/4/20 16:26
-     * @since 1.0.0
      * @return boolean
      */
     public boolean verify(){
@@ -68,9 +61,6 @@ public class LicenseVerify {
 
     /**
      * 初始化证书生成参数
-     * @author zifangsky
-     * @date 2018/4/20 10:56
-     * @since 1.0.0
      * @param param License校验类需要的参数
      * @return de.schlichtherle.license.LicenseParam
      */

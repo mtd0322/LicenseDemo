@@ -6,11 +6,10 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 
 /**
- * 用于获取客户Windows服务器的基本信息
- *
- * @author zifangsky
- * @date 2018/4/23
- * @since 1.0.0
+ * @ClassName: WindowsServerInfos
+ * @description: 用于获取客户Windows服务器的基本信息
+ * @author: AlanMa
+ * @create: 2019-06-24 15:14
  */
 public class WindowsServerInfos extends AbstractServerInfos{
 

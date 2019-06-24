@@ -9,11 +9,10 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * 用于获取客户Linux服务器的基本信息
- *
- * @author zifangsky
- * @date 2018/4/23
- * @since 1.0.0
+ * @ClassName: LinuxServerInfos
+ * @description: 用于获取客户Linux服务器的基本信息
+ * @author: AlanMa
+ * @create: 2019-06-24 15:14
  */
 public class LinuxServerInfos extends AbstractServerInfos{
 
