@@ -20,7 +20,7 @@
         <java.version>1.8</java.version>
         <skipTests>true</skipTests>
         <commons-lang3>3.7</commons-lang3>
-        <commons-io>2.6</commons-io>
+        <commons-io>2.7</commons-io>
         <commons-codec>1.11</commons-codec>
         <fastjson>1.2.47</fastjson>
         <truelicense>1.33</truelicense>
